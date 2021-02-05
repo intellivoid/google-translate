@@ -1,0 +1,44 @@
+{
+    "package": {
+        "package_name": "net.intellivoid.google_translate",
+        "name": "GoogleTranslate",
+        "version": "4.1.4.0",
+        "author": "Zi Xing Narrakas",
+        "organization": "Intellivoid Technologies",
+        "description": "Free Google Translate API Package. Translates totally free of charge.",
+        "url": "https://github.com/intellivoid/google-translate",
+        "dependencies": [
+            {
+                "package": "com.guzzlehttp.guzzle",
+                "version": "latest",
+                "source": "guzzlehttp@composer/guzzle",
+                "required": true
+            }
+        ],
+        "configuration": {
+            "autoload_method": "generated_spl",
+            "main": null,
+            "post_installation": [],
+            "pre_installation": []
+        }
+    },
+    "components": [
+        {
+            "required": true,
+            "file": "GoogleTranslate.php"
+        },
+        {
+            "required": true,
+            "file": "Tokens/TokenProviderInterface.php"
+        },
+        {
+            "required": true,
+            "file": "Tokens/SampleTokenGenerator.php"
+        },
+        {
+            "required": true,
+            "file": "Tokens/GoogleTokenGenerator.php"
+        }
+    ],
+    "files": []
+}

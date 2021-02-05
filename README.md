@@ -3,7 +3,7 @@ Google Translate PHP
 
 Forked from [this repo](https://github.com/Stichoza/google-translate-php) for PPM
 
-Free Google Translate API PHP Package. Translates totally free of charge.
+Free Google Translate API Package. Translates totally free of charge.
 
 ---
 
